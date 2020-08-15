@@ -1,8 +1,8 @@
 <?php
 session_start();
 $dbhost = "us-cdbr-east-02.cleardb.com";
-$user = "wyt46f9gveuregyt";
-$pass = "be9d3bc6ef6d71";
+$user = "be9d3bc6ef6d71";
+$pass = "bb43538f";
 $dbname = "heroku_8306e03e292f018";
 $conn = mysqli_connect($dbhost, $user, $pass);
 mysqli_select_db($conn, $dbname);
