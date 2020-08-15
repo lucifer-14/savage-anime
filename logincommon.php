@@ -94,10 +94,10 @@ function validate($username, $password, $default_url, $isAdmin)
     $isExist = true;
     $passwordhash = md5($password);
     if ($isAdmin) {
-        $query = "select * from users where password='$passwordhash' and username='$username' where role='Admin'";
+        $query = "select * from users where password='$passwordhash' and username='$username' and role='Admin'";
     }else{
     //make default query
-        $query = "select * from users where password='$passwordhash' and username='$username' where role='User'";
+        $query = "select * from users where password='$passwordhash' and username='$username' and role='User'";
     }
     $resultQuery = mysqli_query($conn, $query);
     //check username is exist or not
