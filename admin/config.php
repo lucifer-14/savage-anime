@@ -1,9 +1,9 @@
 <?php
 session_start();
-$dbhost = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "savage_anime_db";
+$dbhost = "y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$user = "wyt46f9gveuregyt";
+$pass = "kofls8lbeecgqf65";
+$dbname = "cjzfzi8ermiutvkb";
 $conn = mysqli_connect($dbhost, $user, $pass);
 mysqli_select_db($conn, $dbname);
 $imagePath = "../user_img/";
