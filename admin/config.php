@@ -1,9 +1,9 @@
 <?php
 session_start();
-$dbhost = "y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbhost = "us-cdbr-east-02.cleardb.com";
 $user = "wyt46f9gveuregyt";
-$pass = "kofls8lbeecgqf65";
-$dbname = "cjzfzi8ermiutvkb";
+$pass = "be9d3bc6ef6d71";
+$dbname = "heroku_8306e03e292f018";
 $conn = mysqli_connect($dbhost, $user, $pass);
 mysqli_select_db($conn, $dbname);
 $imagePath = "../user_img/";
