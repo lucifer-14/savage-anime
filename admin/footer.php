@@ -1,6 +1,6 @@
 <!-- /.content-wrapper -->
 <footer class="main-footer">
-    <strong> Enjoy anime for free.
+    <strong> Enjoy animes for free.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 1.0.0
     </div>
