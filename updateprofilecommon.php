@@ -96,7 +96,7 @@ function isValidFields()
         return false;
     }
 
-    $result = mysqli_query($conn, "select * from users where and email='$email' and id<>'$currentUser'");
+    $result = mysqli_query($conn, "select * from users where email='$email' and id<>'$currentUser'");
     if (mysqli_num_rows($result) > 0) {
         $error = "Email is alerady taken.";
         return false;
